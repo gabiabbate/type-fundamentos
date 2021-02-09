@@ -30,3 +30,17 @@ alert(meuArray);
 
 //pode ser feito com o <> irá ter o mesmo efeito e com isso fica tipado o array
 let meuArray2: Array<number> = [1, 2, 3, 4];
+
+//operador com tuplas
+//exemplo de tuplas sao os dicionarios
+/* palavra(string) -> significado(string)*/
+let campeaoBrasileiro: [string, number] = ["Palmeiras", 2016];
+let campeaoBrasileiro: [string, number] = ["Corinthians", 2015];
+let campeaoBrasileiro: [string, number] = ["Cruzeiro", 2014];
+
+alert(campeaoBrasileiro[0] + "-" + campeaoBrasileiro[1]);
+
+let campeaoBrasileiro3: [string, number] = ["Palmeiras", 2016];
+campeaoBrasileiro3[0] = "teste";
+
+alert(campeaoBrasileiro3);
