@@ -44,3 +44,8 @@ let campeaoBrasileiro3: [string, number] = ["Palmeiras", 2016];
 campeaoBrasileiro3[0] = "teste";
 
 alert(campeaoBrasileiro3);
+
+let variavelBooleana: boolean = true;
+
+variavelBooleana = 1;
+variavelBooleana = "gabriela";
